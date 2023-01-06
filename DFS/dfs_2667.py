@@ -35,8 +35,8 @@ for i in range(N):
             mini.append(mini_count+1)
 
 print(cnt)
+mini.sort()
 for x in mini:
     print(x)
-
 
 
